@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(233, 227, 239);
+}
+
+.container{
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(114, 114, 192);
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {width: 0 !important}
+
+#form{
+    margin-top: 50px;
+}
+
+#posts {
+    width: 400px;
+    margin: auto; 
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: #fff;
+    border: 3px solid red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+}
+
+i{
+    cursor: pointer;
+}
+.options #edit{
+    color: green;
+}
+
+.options #delete{
+    color: red;
+}
+
+#msg{
+    color: red;
+    padding: 10px 200px 0px 0px;
+
+}
+
+h1{
+    margin-top: 50px;
+    padding-top: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h3{
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#input{
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#addBtn{
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: skyblue;
+}
